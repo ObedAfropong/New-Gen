@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>New Gen Group – Home</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar">
+    <div class="nav-brand">NEW<span>GEN</span></div>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-toggle" onclick="toggleMenu()">&#9776;</div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">INTRO TO CLOUD COMPUTING — GROUP PROJECT</p>
+      <h1 class="hero-title">New Gen<br/><span>Group</span></h1>
+      <p class="hero-subtitle">A team of Computer Science students building the future — one line of code at a time.</p>
+      <div class="hero-cta">
+        <a href="about.html" class="btn-primary">Meet the Team</a>
+        <a href="contact.html" class="btn-outline">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="cloud-card">
+        <div class="cloud-icon">☁</div>
+        <p>Static Website</p>
+        <span>Deployed via GitHub Pages</span>
+      </div>
+      <div class="cloud-card card-2">
+        <div class="cloud-icon">⚡</div>
+        <p>Fast & Efficient</p>
+        <span>Zero backend overhead</span>
+      </div>
+      <div class="cloud-card card-3">
+        <div class="cloud-icon">🎨</div>
+        <p>Clean Design</p>
+        <span>User-friendly interface</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- COURSE STRIP -->
+  <div class="course-strip">
+    <span>INTRO TO CLOUD COMPUTING</span>
+    <span>•</span>
+    <span>COMPUTER SCIENCE</span>
+    <span>•</span>
+    <span>STATIC WEBSITE</span>
+    <span>•</span>
+    <span>GITHUB PAGES</span>
+    <span>•</span>
+    <span>NEW GEN GROUP</span>
+    <span>•</span>
+  </div>
+
+  <!-- MEMBERS PREVIEW -->
+  <section class="section members-preview">
+    <div class="section-header">
+      <p class="section-tag">THE TEAM</p>
+      <h2>Group Members</h2>
+    </div>
+    <div class="members-grid">
+      <div class="member-card">
+        <div class="member-avatar">SD</div>
+        <h3>Samuel Dickson Cobblah</h3>
+        <p>Coded the JavaScript functionality</p>
+      </div>
+      <div class="member-card">
+        <div class="member-avatar">OA</div>
+        <h3>Obed Afropong</h3>
+        <p>Added content and images </p>
+      </div>
+      <div class="member-card">
+        <div class="member-avatar">GA</div>
+        <h3>Gerrard Asare Kyei</h3>
+        <p>Made HTML files</p>
+      </div>
+      <div class="member-card">
+        <div class="member-avatar">PK</div>
+        <h3>Prince Kwame Kuti</h3>
+        <p>Group Leader and Github Manager</p>
+      </div>
+      <div class="member-card">
+        <div class="member-avatar">CF</div>
+        <h3>Clifford</h3>
+        <p>Designer of Style Sheet</p>
+      </div>
+    </div>
+    <div class="center-link">
+      <a href="about.html" class="btn-primary">View Full About Page →</a>
+    </div>
+  </section>
+
+  <!-- PROJECT HIGHLIGHTS -->
+  <section class="section highlights">
+    <div class="section-header">
+      <p class="section-tag">WHAT WE BUILT</p>
+      <h2>Project Highlights</h2>
+    </div>
+    <div class="highlights-grid">
+      <div class="highlight-card">
+        <span class="highlight-num">01</span>
+        <h3>Functionality First</h3>
+        <p>Every page works seamlessly with clean navigation and structured content.</p>
+      </div>
+      <div class="highlight-card">
+        <span class="highlight-num">02</span>
+        <h3>Thoughtful Design</h3>
+        <p>A cohesive visual identity built with CSS — no frameworks, just craft.</p>
+      </div>
+      <div class="highlight-card">
+        <span class="highlight-num">03</span>
+        <h3>User Friendly</h3>
+        <p>Intuitive layout so anyone can navigate our site without confusion.</p>
+      </div>
+      <div class="highlight-card">
+        <span class="highlight-num">04</span>
+        <h3>Cloud Deployed</h3>
+        <p>Hosted live on GitHub Pages — demonstrating real-world cloud deployment.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-brand">NEW<span>GEN</span></div>
+    <p>Intro to Cloud Computing · Computer Science · Group Project</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <p class="footer-copy">© 2025 New Gen Group. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.querySelector('.nav-links').classList.toggle('open');
+    }
+  </script>
+</body>
+</html>
